@@ -1,0 +1,833 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ========================================
+              Common Css End
+======================================== */
+/* ========================================
+             Header part Start
+======================================== */
+#head {
+    height: 46px;
+    background: #A4C639;
+}
+
+.time {
+    float: left;
+}
+
+.time a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 46px;
+    font-weight: 400;
+    padding: 0 30px;
+    border-left: 1px solid #ffff;
+    border-right: 1px solid #ffff;
+
+}
+
+.number {
+    float: left;
+}
+
+.number a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 46px;
+    font-weight: 400;
+    padding: 0 30px;
+    border-left: 1px solid #ffff;
+    border-right: 1px solid #ffff;
+}
+
+.icon ul {
+    float: right;
+}
+
+.icon ul li {
+    float: left;
+}
+
+.icon ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 46px;
+    font-weight: 400;
+    padding: 0 30px;
+    border-left: 1px solid #ffff;
+    border-right: 1px solid #ffff;
+}
+
+/* ========================================
+                Header part  End
+======================================== */
+
+
+/* ========================================
+             Menu part Start
+======================================== */
+#menu {
+    height: 60px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 46px;
+}
+
+.logo {
+    float: left;
+    line-height: 60px;
+} 
+.main_menu ul{
+    float: right;
+} 
+.main_menu ul li{
+  float: left;
+}
+
+.main_menu ul li a {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 60px;
+    margin-left: 30px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li a::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 10px;
+    width: 0%;
+    height: 3px;
+    background: #A4C639;
+
+}
+
+.main_menu ul li a:hover::after {
+    width: 100%;
+}
+
+/* ========================================
+            Menu part  End
+======================================== */
+
+
+/* =======================================
+             Banner part Start
+======================================== */
+#banner {
+    padding: 30px 0;
+    background: url(../images/slide_01.jpg) no-repeat center/cover;
+    
+}
+
+.banner-col {
+    width: 500px;
+    text-align: left;
+    margin-left: 60px;
+    
+
+}
+
+.banner-col h2 {
+    color: #A4C639;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.banner-col h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+
+.banner-col p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.banner-col a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.common_btn1 {
+    background: #A4C639;
+    color: #ffffff !important;
+    font-size: 16px;
+    /* line-height: 50px; */
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    padding: 10px 30px !important;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+
+/* ========================================
+            Banner part  End
+======================================== */
+#banner_req {
+    padding: 40px;
+    background: #A4C639;
+}
+
+.req_text {
+    width: 50%;
+
+    float: left;
+}
+
+.req_text h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.req_btn {
+
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.common_btn2 {
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #fff;
+    font-size: 16px;
+    /* line-height: 50px; */
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+/* ========================================
+        Financial Services part Start
+======================================== */
+#financial {
+    padding: 80px 0;
+}
+
+.common_head {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.common_head h2 {
+    color: firebrick;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.common_head h2 span {
+    color: #A4C639;
+}
+
+.common_head p {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+
+.serv_col {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    background: #f1f1f1;
+}
+
+.serv_img img {
+    width: 100%;
+}
+
+.serv_text {
+    padding-left: 20px;
+
+    padding-bottom: 30px;
+}
+
+.serv_text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.serv_text p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+
+/* ========================================
+        Financial Services part  End
+======================================== */
+
+/* ========================================
+             Solution part Start
+======================================== */
+#solution {
+    padding: 80px 0 !important;
+    background: url(../images/fun-facts-bg.jpg) no-repeat center/cover;
+}
+
+.solu_col {
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.solu_col h4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+
+}
+
+.solu_col h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.solu_col h2 span {
+    color: #A4C639;
+
+}
+
+.solu_col p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.solu_col p span {
+    margin-top: 30px;
+    display: block;
+}
+
+.solu_col1 {
+    padding: 55px 45px;
+    /* width: 20%; */
+    float: left;
+    text-align: center;
+    background: rgb(0, 0, 0, 0.60);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.solu_col1 h2 {
+    color: #A4C639;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.solu_col1 h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* ========================================
+            Solution part  End
+======================================== */
+
+
+/* ========================================
+             Know part Start
+======================================== */
+#know {
+    padding: 80px 0;
+
+}
+
+.know_col {
+    width: 45%;
+    float: left;
+
+
+}
+
+.know_img img {
+    width: 100%;
+}
+
+.know_text h4 {
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.know_text h3 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.know_text h3 span {
+    color: #A4C639;
+}
+
+.know_text p {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.know_text p span {
+    margin-top: 30px;
+    display: block;
+}
+
+.know_ex {
+    background: #f1f1f1;
+    padding-left: 30px;
+    padding-bottom: 42px;
+}
+
+.know_text a {
+    margin-bottom: 15px;
+
+}
+
+/* ========================================
+                Know part  End
+======================================== */
+
+/* ========================================
+             About Us part Start
+======================================== */
+#about {
+    padding: 80px 0;
+    background: #f1f1f1;
+}
+
+.about_col {
+    width: 45%;
+    padding: 20px 30px;
+    background: #ffffff;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+
+.about_col h2 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.about_col h3 {
+    color: #A4C639;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* ========================================
+            About Us part  End
+======================================== */
+
+/* ========================================
+             Call Back part Start
+======================================== */
+#call_back {
+    padding: 80px 0;
+}
+
+form {
+    padding: 80px 0;
+    background: #A4C639;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input {
+    width: 310px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 30px;
+
+}
+
+textarea {
+    width: 1030px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    text-align: justify;
+}
+
+/* ========================================
+            Call Back part  End
+======================================== */
+
+
+/* ========================================
+             Work part Start
+======================================== */
+#work {
+    padding: 50px 0;
+    background: #F7F7F7;
+}
+
+.work_col {
+    width: 22%;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+/* ========================================
+            Work part  End
+======================================== */
+
+/* ========================================
+             Footter part Start
+======================================== */
+.footer_top {
+    padding: 80px 0;
+    background: #232323;
+}
+
+.footer_col {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+
+.foot_1 h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.foot_1 p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 24px;
+
+}
+
+.foot_2 h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.foot_2 ul li a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+
+.foot_2 ul li a:hover {
+    color: #A4C639;
+}
+
+.foot_3 h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.foot_3 ul li a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+
+.foot_3 ul li a:hover {
+    color: #A4C639;
+}
+
+.foot_4 h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.foot_4 input {
+    margin-bottom: 10px;
+}
+
+.foot_4 textarea {
+    width: 300px;
+}
+
+.footer_btm {
+    padding: 15px 0;
+    background: #343434;
+}
+
+.footer_btm_text {
+    text-align: center;
+    color: #7a7979;
+}
+
+/* ========================================
+            Footter part  End
+======================================== */
+
+/* ========================================
+  ############ HOME PAGE END ############
+======================================== */
+
+
+
+
+
+/* ========================================
+             ABIOUT PAGE Start
+======================================== */
+
+
+/* ========================================
+             About Banner PRAT Start
+======================================== */
+#about_banner {
+    padding: 30px 0;
+    background: url(../images/page-heading-bg.jpg) no-repeat center/cover;
+}
+
+.about_banner_text {
+    padding: 150px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about_banner_text h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.about_banner_text h2 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+/* ========================================
+                 About Banner  End
+======================================== */
+
+
+/* ========================================
+                Our Team /About Statr
+======================================== */
+#team {
+    padding: 80px 0;
+    background: #f1f1f1;
+}
+
+.team_col {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    background: #ffffff !important;
+}
+
+.team_img img {
+    width: 100%;
+}
+
+.team_text {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.team_text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.team_text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #A4C639;
+    margin-bottom: 15px;
+}
+
+.team_text p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+
+/* ========================================
+                Our Team /About End
+======================================== */
+
+/* ========================================
+            Market Part start
+======================================== */
+#market{
+    padding: 80px 0;
+}
+.market_col1{
+    width: 35%;
+    float: left;
+   
+
+}
+.market_col2{
+    width: 50%;
+    float: left;
+}
+.market_row{
+    padding: 15px 10px;
+    background: #A4C639;
+   left: 50px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.market_row a{
+    color: #ffffff;
+}
+/* ========================================
+            Market Part End
+======================================== */
+
+
+
+/* ========================================
+                Our Team /About End
+======================================== */
+/* ========================================
+                Our Team /About End
+======================================== */
+/* ========================================
+                Our Team /About End
+======================================== */
+/* ========================================
+                Our Team /About End
+======================================== */
+
+/* ========================================
+                ABOUT PAGE End
+======================================== */
